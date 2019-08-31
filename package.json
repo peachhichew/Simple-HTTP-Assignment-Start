@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "This is an assignment that will use Node.js to build a simple HTTP server to server HTML, text, and JSON. The server will accept several different URLs and make a choice of what to return based on the URL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peachhichew/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Sky Wan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/peachhichew/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/peachhichew/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
