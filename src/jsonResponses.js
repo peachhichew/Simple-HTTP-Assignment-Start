@@ -13,7 +13,7 @@ const getHelloJSON = (request, response) => {
 
 const getTimeJSON = (request, response) => {
   const timeJSON = {
-    time: text.getTimeString,
+    time: text.getTimeString(),
   };
   const stringMessage = JSON.stringify(timeJSON);
 
